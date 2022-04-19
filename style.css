@@ -1,0 +1,74 @@
+body {
+
+}
+
+#goals {
+  width: 50%;
+}
+
+.eventsandnews {
+  border-color: black;
+  border-style: double;
+  border-radius: 5px;
+  width: 25%;
+  position: relative;
+}
+
+.didyouknow {
+  border-color: black;
+  border-style: double;
+  border-radius: 5px;
+  width: 25%;
+  position: relative;
+}
+
+.ourgoals {
+   border-color: black;
+   border-style: double;
+   border-radius: 5px;
+   width: 25%;
+   position: relative;
+}
+
+p {
+  font-family:helvetica;
+  font-size:20px;
+}
+
+.aboutgenderequality {
+  border-color: black;
+  border-style: double;
+  border-radius: 5px;
+  width: 25%;
+  position: relative;
+}
+
+.ourwork {
+  border-color: black;
+  border-style: double;
+  border-radius: 5px;
+  width: 25%;
+  position: relative;
+}
+
+.contactus {
+  border-color: black;
+  border-style: double;
+  border-radius: 5px;
+  width: 25%;
+  position: relative;
+}
+
+.weologo {
+  border-radius: 5px;
+  width: 25%;
+  position: relative;
+}
+
+.aboutus {
+  border-color: black;
+  border-style: double;
+  border-radius: 5px;
+  width: 25%;
+  position: relative;
+}
