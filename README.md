@@ -1,2 +1,2 @@
-# weo
+# WEO
 World Equality Organization
