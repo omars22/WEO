@@ -2,7 +2,7 @@
 
 GitHub Repo Owner: @omars22.
 
-# Main Coode
+# Main Code
 
 ```html
 <!DOCTYPE html>
@@ -37,9 +37,3 @@ GitHub Repo Owner: @omars22.
     </div>
    </body>
 </html>    
-
-# Cloning WEO Repository
-
-```bash
-gh repo clone omars22/WEO
-
