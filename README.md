@@ -1,5 +1,6 @@
 # WEO
 
-Founded By: ...
+GitHub Repo Owner: @omars22.
 
-World Equality Organization
+```python
+print("Hello World!")
