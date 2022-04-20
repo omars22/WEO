@@ -1,74 +1,80 @@
 body {
+  scroll-behavior: smooth;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
 
+ul {
+  list-style-type: none;
+}
+
+h1, h2 {
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+#nounderline {
+  text-decoration: none;
+  color: #fff;
 }
 
 #goals {
   width: 50%;
 }
 
-.eventsandnews {
+.eventsandnews, .didyouknow, .ourgoals, .aboutgenderequality, .ourwork,
+.contactus, .aboutus {
   border-color: black;
   border-style: double;
   border-radius: 5px;
-  width: 25%;
+  width: 30%;
   position: relative;
 }
 
-.didyouknow {
-  border-color: black;
-  border-style: double;
-  border-radius: 5px;
-  width: 25%;
-  position: relative;
+@import url
+('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+  padding: 0;
 }
 
-.ourgoals {
-   border-color: black;
-   border-style: double;
-   border-radius: 5px;
-   width: 25%;
-   position: relative;
+@media (max-width: 480px) {
+  #frontimg {
+    display: none;
+  }
+
+  .eventsandnews, .didyouknow, .ourgoals, .aboutgenderequality, .ourwork,
+  .contactus, .aboutus {
+    width: 100%;
+  }
+}
+
+.navbar {
+  background-color: #3a00ff;
+  color: white;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+  overflow: auto;
+  width: 100%;
+}
+
+.donation {
+  position: absolute;
+  width: 30%;
 }
 
 p {
-  font-family:helvetica;
+  font-family: helvetica;
   font-size:20px;
-}
-
-.aboutgenderequality {
-  border-color: black;
-  border-style: double;
-  border-radius: 5px;
-  width: 25%;
-  position: relative;
-}
-
-.ourwork {
-  border-color: black;
-  border-style: double;
-  border-radius: 5px;
-  width: 25%;
-  position: relative;
-}
-
-.contactus {
-  border-color: black;
-  border-style: double;
-  border-radius: 5px;
-  width: 25%;
-  position: relative;
-}
-
-.weologo {
-  border-radius: 5px;
-  width: 25%;
-  position: relative;
-}
-
-.aboutus {
-  border-color: black;
-  border-style: double;
-  border-radius: 5px;
-  width: 25%;
-  position: relative;
 }
