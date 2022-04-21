@@ -1,6 +1,7 @@
 # WEO
 
 GitHub Repo Owner: @omars22.
+Font Awesome 5.13.0
 
 # Main Code
 
