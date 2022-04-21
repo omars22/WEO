@@ -31,6 +31,7 @@ img {
   width: 50%;
 }
 
+/*DIV STYLING*/
 .eventsandnews, .didyouknow, .ourgoals, .aboutgenderequality, .ourwork,
 .contactus, .aboutus {
   border-color: black;
@@ -40,6 +41,7 @@ img {
   position: relative;
 }
 
+/*OPEN SANS FONT IMPORT*/
 @import url
 ('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
@@ -47,6 +49,7 @@ img {
   padding: 0;
 }
 
+/**/
 @media (max-width: 480px) {
   #frontimg {
     display: none;
