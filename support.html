@@ -2,22 +2,34 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <style>
+    .usd {
+        font-size: 25px;
+        cursor: pointer;
+        background-color: aquamarine;
+    }
+    </style>
     <link rel="stylesheet" href="style.css">
     <title>WEO | Support/Donate</title>
   </head>
   <body>
     <!--DONATION BODY-->
     <h1 style="text-align:center;">Donate to Support WEO</h1>
-    <div style="text-align:center;" class="donation">
-      <h3>Donation Amount: </h3>
-      <select class="donationamount">
-      <option value="1usd">1$</option>
-      <option value="5usd">5$</option>
-      <option value="10usd">10$</option>
-      <option value="25usd">25$</option>
-      <option value="50usd">50$</option>
-      <option value="100usd">100$</option>
-    </select>
+    <h3 style="text-align: center;">Donation Amount: </h3>
+    <div class="amount" style="text-align: center;">
+    <a target="_blank" href="payment.html"><button class="usd">1$</button></a>
+    <a target="_blank" href="payment.html"><button class="usd">5$</button></a>
+    <a target="_blank" href="payment.html"><button class="usd">10$</button></a>
+    <a target="_blank" href="payment.html"><button class="usd">25$</button></a>
+    <a target="_blank" href="payment.html"><button class="usd">50$</button></a>
+    <a target="_blank" href="payment.html"><button class="usd">100$</button></a>
+    </div>
+    <figcaption style="text-align:center">Click On Any Amount To Proceed To Payment</figcaption>
+    <!--BACK BUTTON-->
+    <div class="back" style="text-align:center;">
+      <a href="index.html" class="return"><button style="cursor:pointer;
+        background-color:white;font-size:17px;border-radius:
+        5px;">Back To Home</button></a>
     </div>
   </body>
 </html>
