@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WEO | Payment</title>
+</head>
+<body>
+    <!--PAYMENT BODY-->
+    <h1 style="text-align: center;">Thank You!</h1>
+    <p style="text-align: center;font-size: 17px;">Clicked Here By Accident? Click The Home Button Below.</p>
+    <div style="text-align: center;">
+        <a href="index.html"><button>Back To Home</button></a>
+    </div>
+    <!--CREDENTIALS FORM-->
+    <h2 style="text-align: center;">Payment Information</h2>
+    <form action="thankyou.html" method="get" autocomplete="on" target="_blank" style="text-align: center;" aria-required="true">
+        <!--FULL NAME-->
+        <label for="name">Full Name: </label>
+        <input type="text" name="name">
+        <br>
+        <!--BIRTH DATE-->
+        <label for="birthdate">Birth Date: </label>
+        <input type="date" name="birthdate">
+        <br>
+        <h3>Payment Method</h3>
+        <img src="https://miro.medium.com/max/683/1*99dB6U1eTFNGk2IdEXIw8Q.jpeg" alt="VISA" id="visa-mastercard">
+        <br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/200px-Mastercard-logo.svg.png" alt="MASTERCARD" id="visa-mastercard">
+        <h3>OR</h3>
+        <label for="number">Number: </label>
+        <input type="text" name="number" placeholder="Required">
+        <br>
+        <label for="expires">Expires: </label>
+        <input type="text" name="expires" placeholder="MM/ YYYY">
+        <br>
+        <label for="cvv">CVV: </label>
+        <input type="text" name="cvv" placeholder="Security Code">
+        <br>
+        <input type="submit" value="Purchase">
+    </form>
+</body>
+</html>
