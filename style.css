@@ -3,6 +3,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #333;
   line-height: 1.6;
+  background-color: linear-gradient(cyan, aquamarine, white);
 }
 
 ul {
@@ -17,31 +18,74 @@ p {
   margin: 10px 0;
 }
 
-img {
-  width: 100%;
-  border-radius: 6px;
-}
-
 #nounderline {
   text-decoration: none;
   color: #fff;
+}
+
+
+
+#insports {
+  position: absolute;
+  bottom: 8px;
+  left: 15%;
 }
 
 #goals {
   width: 50%;
 }
 
-/*DIV STYLING*/
+#visa-mastercard {
+  margin: auto;
+  text-align: center;
+  width: 5%;
+}
+
 .eventsandnews, .didyouknow, .ourgoals, .aboutgenderequality, .ourwork,
 .contactus, .aboutus {
   border-color: black;
   border-style: double;
   border-radius: 5px;
-  width: 30%;
+  width: 92%;
   position: relative;
+  margin: auto;
+  overflow: auto;
 }
 
-/*OPEN SANS FONT IMPORT*/
+#purchase {
+  background-color: #fff;
+  border-color: rgb(57, 57, 255);
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.main h2 {
+  font-size: 30px;
+}
+
+button {
+  background-color: #fff;
+  border-color: rgb(57, 57, 255);
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.goals {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 390px;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
 @import url
 ('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
@@ -49,7 +93,6 @@ img {
   padding: 0;
 }
 
-/**/
 @media (max-width: 480px) {
   #frontimg {
     display: none;
@@ -61,15 +104,23 @@ img {
   }
 }
 
-.navbar {
-  background-color: #3a00ff;
-  color: white;
+#weologo {
+  width: 8%;
   height: auto;
+  float: left;
+}
+
+.navbar {
+  background-color: #fff;
+  border-style: solid;
+  border-color: rgb(22, 123, 255);
+  color: white;
+  height: 115px;
   margin: 0 auto;
   text-align: center;
   border-radius: 10px;
   overflow: auto;
-  width: 100%;
+  width: 97%;
 }
 
 .donation {
