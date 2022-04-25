@@ -75,10 +75,15 @@ button {
 }
 
 .goals {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 390px;
+  border-color: black;
+  border-style: double;
+  border-radius: 5px;
+  width: 25%;
+  position: relative;
+}
+
+img {
+  border-radius: 9px;
 }
 
 .desc {
